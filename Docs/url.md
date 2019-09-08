@@ -2,10 +2,9 @@
 <p>Une URL (Uniform Resource Locator) permet d'identifier une ressource (par exemple un fichier) sur un réseau.</p>
 <p>L'URL indique « l'endroit » où se trouve une ressource sur un ordinateur. Un fichier peut se trouver dans un dossier qui peut lui-même se trouver dans un autre dossier...
 On parle d'une structure en arborescence, car elle ressemble à un arbre à l'envers :</p>
-<div class="centrer">
-<img src="url.jpg" alt="arbo"/>
-<figcaption>structure en arborescence</figcaption>
-</div>
+
+<img src="url.jpg" alt="arbo" align="center"/>
+
 <p>Comme vous pouvez le constater, la base de l'arbre s'appelle la racine de l'arborescence et se représente par un /</p>
 <h4>Chemin absolu ou chemin relatif ?</h4>
 <p>Pour indiquer la position d'un fichier (ou d'un dossier) dans l'arborescence, il existe 2 méthodes :
@@ -25,9 +24,9 @@ pouvoir repartir vers la bonne « branche ». Pour ce faire il faut utiliser 2 p
 <p>Il est tout à fait possible de remonter de plusieurs « crans » : ../../ depuis le dossier dossier4 permet de « retourner » à la racine.</p>
 <h4>À faire vous-même 1</h4>
 <p>Soit la structure en arborescence suivante:</p>
-<div class="centrer">
-<img src="url.jpg" alt="arbo"/>
-</div>
+
+<img src="url.jpg" alt="arbo" align="center"/>
+
 <p>
 Le contenu du fichier "fichier7.odp" utilise le fichier "fichier5.svg". Donnez le chemin relatif qui devra ẽtre renseigner dans le fichier "fichier7.odp" afin d'atteindre le fichier "fichier5.svg".
 </p>
