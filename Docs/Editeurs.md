@@ -1,4 +1,4 @@
-# L’éditeur de textes (en anglais text editor) :
+## L’éditeur de textes (en anglais text editor) :
 
 C’est un outil qui permet de manipuler un fichier au format texte brut (en anglais plain text), c’est à dire uniquement des caractères 
 alphanumériques. Le plus connu est le bloc-notes de Windows. Les éditeurs les plus simples proposent les fonctions
@@ -19,7 +19,7 @@ L’éditeur est donc un logiciel indispensable à tous ceux qui travaillent sur
 * les administrateurs système ;
 * les webmasters.
 
-# Le traitement de texte (en anglais word processing) :
+## Le traitement de texte (en anglais word processing) :
 
 C’est un outil qui permet de mettre en forme un texte d'un point de vue typographique (en anglais formated text).
 Un logiciel de traitement de texte contient de multiples fonctions, permettant
@@ -33,7 +33,7 @@ Un logiciel de traitement de texte contient de multiples fonctions, permettant
   * de paragraphe ; 
   * de mise en page .
   
- # 1.2  Formateur de textes :
+ ## Formateur de textes :
  
  Le formateur de textes est un outil qui comme son nom l’indique, met en forme un texte, à partir d’un fichier source
  en texte brut mais contenant des indications de structure (balises). C’est à dire que, mélangées au texte, 
@@ -49,13 +49,13 @@ l'interprétateur HTML de votre navigateur internet ou le logiciel Latex.
 Exemple HTML:
 
 ```html
-My <span style="color:red">Important</span> Heading
+Le couleur <span style="color:red">rouge</span>.
 Voici deux <span style="font-size:160%;">Gros mots</span>.
 ```
 
 L'interpréteur html du navigateur donnera le résultat suivant:
 
-My <span style="color:red">Important</span> Heading
+Le couleur <span style="color:red">rouge</span>.
 Voici deux <span style="font-size:160%;">Gros mots</span>.
  
 Exemple Latex:
