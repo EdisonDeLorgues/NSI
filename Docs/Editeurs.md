@@ -49,15 +49,15 @@ l'interprétateur HTML de votre navigateur internet ou le logiciel Latex.
 Exemple HTML:
 
 ```html
-Le couleur <span style="color:red">rouge</span>.
-Voici deux <span style="font-size:160%;">Gros mots</span>.
+<p>Le couleur <span style="color:red">rouge</span></p>.
+<p>Voici deux <span style="font-size:160%;">Gros mots</span></p>.
 ```
 
 L'interpréteur html du navigateur donnera le résultat suivant:
 
-Le couleur <span style="color:red">rouge</span>.
-Voici deux <span style="font-size:160%;">Gros mots</span>.
- 
+<p>Le couleur <span style="color:red">rouge</span></p>.
+<p>Voici deux <span style="font-size:160%;">Gros mots</span></p>.
+
 Exemple Latex:
  
  ```latex
