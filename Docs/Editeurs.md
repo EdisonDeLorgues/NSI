@@ -19,19 +19,6 @@ L’éditeur est donc un logiciel indispensable à tous ceux qui travaillent sur
 * les administrateurs système ;
 * les webmasters.
 
-## Le traitement de texte (en anglais word processing) :
-
-C’est un outil qui permet de mettre en forme un texte d'un point de vue typographique (en anglais formated text).
-Un logiciel de traitement de texte contient de multiples fonctions, permettant
-* la saisie; 
-* la correction ;
-* la mise en forme d'un texte; 
-* regroupant par la même occasion tout type 
-  * de polices ;
-  * de couleurs ; 
-  * de typographies ; 
-  * de paragraphe ; 
-  * de mise en page .
   
 ## Formateur de textes (en anglais  document preparation system):
  
@@ -69,3 +56,18 @@ Exemple Latex:
 L'interpréteur latex engendrera le  résultat suivant:
 
 <img src="./latex.svg" alt="rendu latex" height="50"/>
+
+## Le traitement de texte (en anglais word processing) :
+
+C’est un outil qui permet de mettre en forme un texte d'un point de vue typographique (en anglais formated text).
+Un logiciel de traitement de texte contient de multiples fonctions, permettant
+* la saisie; 
+* la correction ;
+* la mise en forme d'un texte; 
+* regroupant par la même occasion tout type 
+  * de polices ;
+  * de couleurs ; 
+  * de typographies ; 
+  * de paragraphe ; 
+  * de mise en page .
+
