@@ -36,13 +36,13 @@ l'interprétateur HTML de votre navigateur internet ou le logiciel Latex.
 Exemple HTML:
 
 ```html
-<p>Le couleur <span style="color:red">rouge</span>.<br>
+<p>Le couleur <span style="color:red">rouge</span>.<br />
 Voici deux <span style="font-size:160%;">Gros mots.</span></p>
 ```
 
 L'interpréteur html du navigateur donnera le résultat suivant:
 
-<p>Le couleur <span style="color:red">rouge</span>.<br>
+<p>Le couleur <span style="color:red">rouge</span>.<br />
 Voici deux <span style="font-size:160%;">Gros mots.</span></p>
 
 Exemple Latex:
