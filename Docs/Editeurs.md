@@ -33,7 +33,7 @@ Un logiciel de traitement de texte contient de multiples fonctions, permettant
   * de paragraphe ; 
   * de mise en page .
   
-## Formateur de textes :
+## Formateur de textes (en anglais  document preparation system):
  
 Le formateur de textes est un outil qui comme son nom l’indique, met en forme un texte, à partir d’un fichier source
 en texte brut mais contenant des indications de structure (balises). C’est à dire que, mélangées au texte, 
