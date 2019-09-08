@@ -46,7 +46,19 @@ Un logiciel de traitement de texte contient de multiples fonctions, permettant
 Le formateur de textes sait reconnaître ces balises et les interpréter. C’est ainsi que procède 
 l'interprétateur HTML de votre navigateur internet ou le logiciel Latex.
  
- Exemple Latex:
+Exemple HTML:
+
+```html
+My <span style="color:red">Important</span> Heading
+Voici deux <span style="font-size:160%;">Gros mots</span>.
+```
+
+L'interpréteur html du navigateur donnera le résultat suivant:
+
+My <span style="color:red">Important</span> Heading
+Voici deux <span style="font-size:160%;">Gros mots</span>.
+ 
+Exemple Latex:
  
  ```latex
  \documentclass{minimal}
@@ -54,3 +66,6 @@ l'interprétateur HTML de votre navigateur internet ou le logiciel Latex.
   \[\sum_{n=1}^{+\infty}\frac{1}{n^2}=\frac{\pi^2}{6}.\]
 \end{document}
 ```
+L'interpréteur latex engendrera le  résultat suivant:
+
+<img src="./latex.svg" alt="rendu latex" height="50"/>
