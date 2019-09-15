@@ -1,4 +1,4 @@
-# Cascading Style Sheet (CSS)
+# Cascading Style Sheets (CSS)
 
 ### Balises neutres, classes et identifiants.
 
@@ -96,7 +96,7 @@ CSS propose une manière alternative par le biais de sélecteurs CSS. En utilisa
 
 <style>
 p { text-align: right; }
--bord { border:ipt solid black; }
+.bord { border:1pt solid black; }
 #n42 { color: gray; }
 </style>
 
@@ -127,19 +127,17 @@ indique que toutes les balises ```<p>``` du document ont leur texte justifié à
 
 * La seconde ligne
 ```css
-.bord { border: ipt solid black; }
+.bord { border: 1pt solid black; }
 ```
 
-indique que toutes les balises possédant la valeur "bord" dans leur attribut class, quel que soit leur nom, ont une bordure d’une épaisseur de un point, en trait plein et noire. Ce style est appliqué au premier et troisième élément span du document, car tous les deux possèdent un attribut class="bordure".
+indique que toutes les balises possédant la valeur "bord" dans leur attribut class, quel que soit leur nom, ont une bordure d’une épaisseur de un point, en trait plein et noire. Ce style est appliqué au premier et troisième élément span du document, car tous les deux possèdent un attribut class="bord".
 
 * Enfin, la troisième ligne
 ```css
 #n42 { color: gray; }
 ```
 
-indique que l’unique balise dont l’attribut id vaut "n42" doit avoir un texte de couleur grise. Cette approche est plus « propre » que celle utilisant l’at-
-tribut style : elle sépare en effet la structure du document (HTML) de sa présentation graphique (CSS). Elle permet aussi de factoriser les styles communs à plusieurs éléments en se basant soit sur le nom de la balise, soit sur la valeur de l’attribut class. Un inconvénient subsiste cependant. Si l'on possède plusieurs fichiers HTML pour lesquels on souhaite appliquer le même style graphique, on souhaiterait ne pas dupliquer la balise style dans tous les fichiers, ce qui encore une fois rendrait la modification de style
-peu aisée. Il est possible de rajouter dans l’entête d’un fichier HTML une balise ```<link>``` de la manière suivante
+indique que l’unique balise dont l’attribut id vaut "n42" doit avoir un texte de couleur grise. Cette approche est plus « propre » que celle utilisant l’attribut style : elle sépare en effet la structure du document (HTML) de sa présentation graphique (CSS). Elle permet aussi de factoriser les styles communs à plusieurs éléments en se basant soit sur le nom de la balise, soit sur la valeur de l’attribut class. Un inconvénient subsiste cependant. Si l'on possède plusieurs fichiers HTML pour lesquels on souhaite appliquer le même style graphique, on souhaiterait ne pas dupliquer la balise style dans tous les fichiers, ce qui encore une fois rendrait la modification de style peu aisée. Il est possible de rajouter dans l’entête d’un fichier HTML une balise ```<link>``` de la manière suivante
 
 ```HTML
 <!DOCTYPE html>
@@ -157,8 +155,7 @@ peu aisée. Il est possible de rajouter dans l’entête d’un fichier HTML une
 </html>
 ```
 
-L'attribut href permet, comme pour une balise ```<a>```, de donner l’emplacement du fichier style.css (ici, le fichier est simplement dans le même répertoire que le fichier HTML). Le fichier CSS est écrit avec la même syntaxe que le contenu de la balise style. Cette manière d'associer une page à un fichier de style est la plus propre. Elle respecte intégralement le principe de séparation entre présentation des données et structuration du contenu. Sauf dans des cas très particuliers, l’utilisation de l’attribut style est à
-proscrire.
+L'attribut href permet, comme pour une balise ```<a>```, de donner l’emplacement du fichier style.css (ici, le fichier est simplement dans le même répertoire que le fichier HTML). Le fichier CSS est écrit avec la même syntaxe que le contenu de la balise style. Cette manière d'associer une page à un fichier de style est la plus propre. Elle respecte intégralement le principe de séparation entre présentation des données et structuration du contenu. Sauf dans des cas très particuliers, l’utilisation de l’attribut style est à proscrire.
 
 ## Quelques propriétés CSS
 
@@ -187,12 +184,12 @@ Comme nous l’avons vu, il existe en HTML deux catégories d'éléments textuel
 boîte et forcent un retour à la ligne et les balises de textes (telles ```<a>```, ```<b>```,```<i>```, etc.) qui placent leur contenu dans le flot du texte. Ce comportement est dirigé par la propriété CSS display. La valeur peut être inline (la boîte est affichée dans le corps du texte), block (la boîte impose un retour à la
 ligne) ou none (la boîte est masquée, elle n'apparaît donc plus à l'écran!).
 
-###Longueurs, couleurs.
+### Longueurs, couleurs.
 
 De nombreuses propriétés CSS indiquent des longueurs (taille d’une bordure, d’un ajustement, taille de police). Leur valeur est toujours un nombre, suivi d’une unité. Parmi les unités légales en CSS, on retrouve le pixel (px) et le point (pt, qui est la même unité que celle utilisée pour les polices de caractères dans de nombreux logiciels). On peut aussi donner la taille de certains éléments de manière relative, en pourcentage (%)
 de la taille de l’élément contenant.
 
-Pour ce qui concerne les couleurs, il est possible d'utiliser soit leur nom en anglais (red, gray, blue, LightGreen, etc.), soit en notation hexadécimale #rruubb où rr, vu et bb représente des valeurs sur deux chiffres entre 00 et FF (soit 255 en base 10). Par exemple, le noir se note #000000 et le violet peut s’obtenir avec #ff00ff. Étant donnée une boîte, on peut définir sa
+Pour ce qui concerne les couleurs, il est possible d'utiliser soit leur nom en anglais (red, gray, blue, LightGreen, etc.), soit en notation hexadécimale #rrvvbb où rr, vv et bb représente des valeurs sur deux chiffres entre 00 et FF (soit 255 en base 10). Par exemple, le noir se note #000000 et le violet peut s’obtenir avec #ff00ff. Étant donnée une boîte, on peut définir sa
 couleur de fond par la propriété background et la couleur de son texte par la propriété color.
 
 Nous donnons dans le tableau ci-après quelques propriétés CSS.
@@ -269,17 +266,19 @@ Nous donnons dans le tableau ci-après quelques propriétés CSS.
 
 Le langage CSS définit une notion de sélecteur, c’est-à-dire un moyen d'identifier à quels éléments s’applique une propriété. La syntaxe des sélecteurs étant très complexe, et faisant l’objet à elle seule d’une spécification, nous ne donnons ici qu’un sous-ensemble de ces fonctionnalités.
 
-Dans une feuille de style (1.e. dans un fichier CSS ou dans la balise style d’un document HTML), une règle CSS est donnée sous la forme suivante :
+Dans une feuille de style (i.e. dans un fichier CSS ou dans la balise style d’un document HTML), une règle CSS est donnée sous la forme suivante :
 
+```css
 P<sub>1</sub> P<sub>2</sub> ... P<sub>n</sub> {
 Prop<sub>1</sub> : v<sub>1</sub>;
 Prop<sub>2</sub> : v<sub>2</sub>;
 ...
 prop<sub>k</sub> : v<sub>k</sub>;
 }
+```
 
 La partie P<sub>1</sub> ... P<sub>n</sub>, est le sélecteur CSS. Il est constitué d’un certain nombre
-de pas ou étapes. L'étape p1 sélectionne tous les éléments situés sous la balise html qui vérifient ces conditions. L'étape P<sub>2</sub> sélectionne tous les éléments qui
+de pas ou étapes. L'étape P<sub>1</sub> sélectionne tous les éléments situés sous la balise html qui vérifient ces conditions. L'étape P<sub>2</sub> sélectionne tous les éléments qui
 vérifient P<sub>2</sub> et qui sont contenus dans les balises des éléments renvoyés par P<sub>1</sub>. On répète le processus jusqu’à arriver au dernier pas. La syntaxe d’un pas peut être :
 
 * un nom de balise comme a, div ou li. Le pas sélectionne alors toutes les balises ayant ce nom;
@@ -318,7 +317,7 @@ On indique ici que l’on souhaite trouver tous les liens (balise ```<a>```) qui
 
 C’est alors l’élément p interne qui est sélectionné.
 
-## Cascades ?
+## Cascades
 
 Nous abordons enfin le dernier aspect des feuilles de style CSS, à savoir l’aspect cascade évoqué dans leur nom. Ce dernier est lié à la manière dont sont gérées les priorités. En effet, lorsque plusieurs règles s'appliquent en même temps sur le même élément, lesquelles choisir ? Cette situation peut par exemple se produire si on a dans le document HTML un paragraphe  comme ceci
 
