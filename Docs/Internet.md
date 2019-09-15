@@ -210,7 +210,7 @@ Par exemple, il peut s’agir d’un réseau Wi-Fi ou d’un réseau câblé uti
 La figure suivante illustre
 un tel réseau:
 
-<img src="./images/Ethernet.jpg" alt="reseau Ethernet" height="300"/>
+<img src="./Ethernet.jpg" alt="reseau Ethernet" height="300"/>
 
 Dans un réseau local de type Ethernet, chaque interface matérielle (chaque carte réseau pour simplifier) possède une adresse sur 48 bits (soit 6 octets) dite adresse MAC. Ces adresses sont traditionnellement données en hexadécimal en séparant chaque octet. Chaque ordinateur possède une carte réseau et une adresse MAC associée. Les ordinateurs sont reliés par un périphérique réseau faisant office de « multi-prise ». La nature exacte de ce périphérique a évolué au cours des années.
 
@@ -300,14 +300,14 @@ Lorsqu'une machine envoie un paquet de données à une autre machine, elle regar
 
 Ce fonctionnement est illustré à la figure suivante:
 
-<img src="./images/IP.jpg" alt="reseau IP" height="700"/>
+<img src="./IP.jpg" alt="reseau IP" height="700"/>
 
 Dans cette figure, lorsque la machine d’IP 192.168.0.4 veut envoyer des données à la machine d’IP 201.9.118.44 (qui n’est pas sur le même sous-réseau) elle envoie les données au routeur de son sous-réseau.
 
 Ce dernier reçoit les données sur sa première interface (192.168.0.1) et les propage sur sa seconde interface (82.30.12.18). Les paquets sont ainsi propagés de proche en proche jusqu’à arriver au routeur d’IP 148.33.1.112 qui est le routeur du sous-réseau de la machine visée.
 
 Pour pouvoir mener à bien ce processus de routage, le protocole IP définit la notion de **paquet IP**. Lorsque la machine source souhaite envoyer des données, elle les encapsule dans un paquet IP dont nous décrivons maintenant la structure.
-
+
 <table style="text-align:center">
     <thead>
         <tr>
@@ -437,7 +437,7 @@ Le protocole UDP se limite essentiellement à cette fonctionnalité. Lorsqu’un
 
 Le protocole TCP résout ces problèmes grâce à un système d’accusés de réception. Le protocole permet d’envoyer à un programme destination des données de taille arbitraire, dans l’ordre, de détecter les erreurs de transmissions et, si besoin, de retransmettre automatiquement les fragments de données perdus ou corrompus. Lorsqu'un client souhaite se connecter à un  serveur avec le protocole TCP, il initie une mise en place de connexion en trois temps (three way handshake). La figure suivante décrit ce procédé:
 
-<img src="./images/connexionTCP.jpg" alt="connexion  TCP" height="700"/>
+<img src="./connexionTCP.jpg" alt="connexion  TCP" height="700"/>
 
 * Dans un premier temps, le client choisit un numéro de séquence aléatoire (1234 dans la figure). Il envoie ensuite au serveur un paquet étiqueté SYN (synchronized, pour synchronisation) indiquant le numéro choisi.
 * Le serveur, sur réception de ce paquet choisit lui aussi un numéro aléatoire (ici 201) et renvoie un paquet SYN-ACK (synchronized-acknowledgement, pour synchronisation et accusé de réception), contenant le numéro de séquence du client incrémenté et le numéro du serveur (ici 1235 et 201).
