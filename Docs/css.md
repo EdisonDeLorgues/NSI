@@ -1,4 +1,4 @@
-# Cascading Style Sheets (CSS)
+# Cascading Style Sheets
 
 ### Balises neutres, classes et identifiants.
 
