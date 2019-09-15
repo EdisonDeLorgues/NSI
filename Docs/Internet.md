@@ -239,6 +239,7 @@ Lors de son introduction au début des années 1980, Ethernet était pensé selo
     </tbody>
 </table>
 
+
 La trame
 * commence par une certaine séquence d’octets (qu’on ne détaille pas) et
 * contient ensuite l'adresse MAC de la machine de destination ainsi que celle de la machine source ;
@@ -308,6 +309,7 @@ Ce dernier reçoit les données sur sa première interface (192.168.0.1) et les 
 
 Pour pouvoir mener à bien ce processus de routage, le protocole IP définit la notion de **paquet IP**. Lorsque la machine source souhaite envoyer des données, elle les encapsule dans un paquet IP dont nous décrivons maintenant la structure.
 
+<div>
 <table style="text-align:center">
     <thead>
         <tr>
@@ -326,6 +328,7 @@ Pour pouvoir mener à bien ce processus de routage, le protocole IP définit la 
         </tr>
     </tbody>
 </table>
+</div>
 
 Sans détailler la nature exacte du préfixe, nous pouvons dire qu’il contient au moins la longueur totale du paquet (incluant les données et l’entête) ainsi qu’un entier sur un octet appelé TTL (pour l’anglais Time To Live ou durée de vie). Si nous revenons à notre exemple en le détaillant, lorsque la machine 192.168.0.4 souhaite envoyer des données, elle les préfixe d’abord par un entête IP, en fixant une certaine durée de vie (par exemple 10). Ce paquet IP est ensuite lui-même encapsulé dans une trame Ethernet et envoyé au routeur 192.168.0.1 (par le protocole Ethernet, sur le réseau local). Ce dernier extrait le paquet IP de la trame Ethernet, décrémente le champ TTL
 dans le paquet IP, le ré-encapsule dans une nouvelle trame (dont le format dépend du réseau physique de son interface 82.30.12.18) et le transmet sur cette interface. À chaque routeur rencontré sur le chemin, le paquet IP est extrait de la trame du protocole physique, son TTL est décrémenté et repropagé jusqu’à son arrivée à destination. Si à un moment le TTL prend
