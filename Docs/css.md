@@ -176,7 +176,6 @@ Lorsque le navigateur dessine ce dernier, il définit une boîte rectangulaire p
 * La première zone est la zone interne dans laquelle le contenu de la balise est dessiné (ici le texte « Mon lien »).
 * Il est possible de définir pour chaque boîte une bordure grâce à la propriété CSS **border**.
 * La zone entre le contenu et la bordure s’appelle l'ajustement. Sa taille est modifiable grâce à la propriété **padding**.
-
 * Enfin, la zone au delà dela bordure est appelée la marge. Sa taille est définissable via la propriété
 **margin**.
 
