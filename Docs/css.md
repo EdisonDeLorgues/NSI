@@ -197,9 +197,9 @@ Nous donnons dans le tableau ci-après quelques propriétés CSS.
 
 <table>
   <tr>
-    <td>**Propriété**</td>
-    <td> **Valeur**</td>
-    <td>**Description**</td>
+    <td><b>Propriété</b></td>
+      <td><b>Valeur</b></td>
+      <td><b>Description</b></td>
   </tr>
   <tr>
     <td>display</td>
@@ -269,11 +269,11 @@ Le langage CSS définit une notion de sélecteur, c’est-à-dire un moyen d'ide
 
 Dans une feuille de style (1.e. dans un fichier CSS ou dans la balise style d’un document HTML), une règle CSS est donnée sous la forme suivante :
 
-P<sub>1</sub> P<sub>2</sub> ... P<sub>n</sub> {</br>
-Prop<sub>1</sub> : v<sub>1</sub>;</br>
-Prop<sub>2</sub> : v<sub>2</sub>;</br>
-...</br>
-prop<sub>k</sub> : v<sub>k</sub>;</br>
+P<sub>1</sub> P<sub>2</sub> ... P<sub>n</sub> {
+Prop<sub>1</sub> : v<sub>1</sub>;
+Prop<sub>2</sub> : v<sub>2</sub>;
+...
+prop<sub>k</sub> : v<sub>k</sub>;
 }
 
 La partie P<sub>1</sub> ... P<sub>n</sub>, est le sélecteur CSS. Il est constitué d’un certain nombre
@@ -303,7 +303,7 @@ On indique ici que l’on souhaite trouver tous les liens (balise ```<a>```) qui
 * Dans le deuxième cas, on sélectionne l’unique élément dont l'identifiant est menu s’il est contenu dans une balise div (mais ce n’est pas forcément la balise div qui a l’identifiant menu). En d’autres termes, le premier sélecteur sélectionne un élément tel que :
 
 ```HTML  
-  <div id="menu"> ... </div>
+<div id="menu"> ... </div>
 ```
   alors que le second fonctionne sur un document contenant
 
@@ -321,17 +321,17 @@ C’est alors l’élément p interne qui est sélectionné.
 Nous abordons enfin le dernier aspect des feuilles de style CSS, à savoir l’aspect cascade évoqué dans leur nom. Ce dernier est lié à la manière dont sont gérées les priorités. En effet, lorsque plusieurs règles s'appliquent en même temps sur le même élément, lesquelles choisir ? Cette situation peut par exemple se produire si on a dans le document HTML un paragraphe  comme ceci
 
 ```HTML   
-  <p style="color:red;font-weight:bold">Du texte</p>
+<p style="color:red;font-weight:bold">Du texte</p>
 ```
   et dans l’entête du même fichier
 
 ```HTML
-  <style>
-  p {
-    color: blue;
-    border:1pt solid black;
+<style>
+ p {
+   color: blue;
+   border:1pt solid black;
   }
-  </style>
+</style>
 ```
 
   Le paragraphe aura son texte en gras et une bordure noire. En effet, les deux propriétés étant indépendantes, la propriété de bordure est donnée par la balise style de l’entête alors que la propriété de graisse de la police est donnée par l’attribut style.
