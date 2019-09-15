@@ -229,12 +229,12 @@ Lors de son introduction au début des années 1980, Ethernet était pensé selo
     </thead>
     <tbody>
         <tr>
-            <td >8 octets</th>
-            <td >6 octets</th>
-            <td >6 octets</th>
-            <td >2 octets</th>
-            <td >longueur octets</th>
-            <td >16 octets</th>
+            <td >8 octets</td>
+            <td >6 octets</td>
+            <td >6 octets</td>
+            <td >2 octets</td>
+            <td >longueur octets</td>
+            <td >16 octets</td>
         </tr>
     </tbody>
 </table>
@@ -321,10 +321,10 @@ Pour pouvoir mener à bien ce processus de routage, le protocole IP définit la 
     </thead>
     <tbody>
         <tr>
-            <td >12 octets</th>
-            <td >4 octets</th>
-            <td >4 octets</th>
-            <td >longueur octets</th>
+            <td >12 octets</td>
+            <td >4 octets</td>
+            <td >4 octets</td>
+            <td >longueur octets</td>
         </tr>
     </tbody>
 </table>
