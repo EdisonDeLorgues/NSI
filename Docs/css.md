@@ -1,3 +1,5 @@
+# Cascading Style Sheet (CSS)
+
 ### Balises neutres, classes et identifiants.
 
 Il existe en HTML deux balises neutres, c’est-à-dire qui n’ont pas de rôle particulier. La première, ```<div>```, est une balise de structure et son comportement par défaut est identique à celui de la balise ```<p>``` (elle représente un bloc de texte). La seconde, ``` <span>```, est une balise de texte, similaire à ```<b>``` ou ```<i>```, mais qui laisse le texte inchangé.
