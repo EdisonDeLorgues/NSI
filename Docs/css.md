@@ -335,7 +335,12 @@ Nous abordons enfin le dernier aspect des feuilles de style CSS, à savoir l’a
 ```
 
   Le paragraphe aura son texte en gras et une bordure noire. En effet, les deux propriétés étant indépendantes, la propriété de bordure est donnée par la balise style de l’entête alors que la propriété de graisse de la police est donnée par l’attribut style.
-  La couleur du texte, en revanche, sera rouge. La règle générale (simplifiée) est que l’attribut style est plus prioritaire que la balise style. Un fichier inclus au moyen d’une balise Link avant une balise style est moins prioritaire que cette dernière. S’il est inclus après, il est plus prioritaire (pour les propriétés en conflit).
+  La couleur du texte, en revanche, sera rouge. 
+  
+La règle générale (simplifiée) est que 
+* l’attribut style est plus prioritaire que la balise style. 
+* Un fichier inclus au moyen d’une balise Link avant une balise style est moins prioritaire que cette dernière. 
+* Un fichier inclus au moyen d’une balise Link après une balise style est plus prioritaire (pour les propriétés en conflit).
 
   La dernière situation de conflit possible est celle où deux règles dans un même fichier ou dans une même balise style s'appliquent au même élément. Considérons l’élément suivant et les trois règles CSS associées.
 
