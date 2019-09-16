@@ -268,11 +268,11 @@ Le langage CSS définit une notion de sélecteur, c’est-à-dire un moyen d'ide
 Dans une feuille de style (i.e. dans un fichier CSS ou dans la balise style d’un document HTML), une règle CSS est donnée sous la forme suivante :
 
 ```css
-P<sub>1</sub> P<sub>2</sub> ... P<sub>n</sub> {
-Prop<sub>1</sub> : v<sub>1</sub>;
-Prop<sub>2</sub> : v<sub>2</sub>;
+P1 P2 ... Pn {
+Prop1 : v1;
+Prop2 : v2;
 ...
-prop<sub>k</sub> : v<sub>k</sub>;
+propk : vk;
 }
 ```
 
