@@ -359,7 +359,9 @@ Le standard CSS définit une règle précise pour lever de telles ambiguïtés. 
 * c le nombre de classes dans le sélecteur et 
 * b le nombre de balises (le symbole * ne compte pas comme une balise). 
 
-On compare alors les triplets, d’abord selon les i, puis en cas d’ex-aequo selon les c, puis selon les b (donc en utilisant l’ordre lexicographique). Le sélecteur le plus grand est celui qui s’applique. S’il reste deux sélecteurs ayant le même triplet, alors seul le dernier dans l’ordre du fichier est choisi. Pour notre exemple ci-dessus, les triplets sont respectivement (1,0,0), (0,0,2) et (0,1,1). C’est donc la première règle qui l’emporte, car son triplet est supérieur aux autres sur la première composante.
+On compare alors les triplets, d’abord selon les i, puis en cas d’ex-aequo selon les c, puis selon les b (donc en utilisant l’ordre lexicographique). Le sélecteur le plus grand est celui qui s’applique. S’il reste deux sélecteurs ayant le même triplet, alors seul le dernier dans l’ordre du fichier est choisi. 
+
+Pour notre exemple ci-dessus, les triplets sont respectivement (1,0,0), (0,0,2) et (0,1,1). C’est donc la première règle qui l’emporte, car son triplet est supérieur aux autres sur la première composante.
 
 # À retenir
 Le langage HTML est le langage de description des pages
