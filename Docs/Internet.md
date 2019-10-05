@@ -14,18 +14,17 @@ Elle saisit l’adresse dans la barre d'adresse de son navigateur. Après quelqu
 identique à chacune de leur machine. La machine hébergeant le site semble donc pouvoir communiquer simultanément avec plusieurs utilisateurs. Ces
 observations nous permettent d'aborder les aspects principaux des réseaux et d’Internet.
 
-[Terminologie et généralités](./Reseau/Terminologie)
+1. [Terminologie et généralités](./Reseau/Terminologie)
 
+1. [Modèles réseau](./Reseau/Modeles)
 
-[Modèles réseau](./Reseau/Modeles)
-
-[La couche de liaison et le protocole Ethernet](./Reseau/Ethernet)
+1. [La couche de liaison et le protocole Ethernet](./Reseau/Ethernet)
  
-[La couche Internet et le protocole IP](./Reseau/IP)
+1. [La couche Internet et le protocole IP](./Reseau/IP)
 
-[La couche de transport, UDP et TCP](./Reseau/TCP)
+1. [La couche de transport, UDP et TCP](./Reseau/TCP)
 
-[DNS, l'annuaire d'Internet](./Reseau/DNS)
+1. [DNS, l'annuaire d'Internet](./Reseau/DNS)
 
 <!-- ## Terminologie et généralités
 
