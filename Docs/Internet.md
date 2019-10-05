@@ -16,6 +16,17 @@ observations nous permettent d'aborder les aspects principaux des réseaux et d�
 
 [Terminologie et généralités](./Reseau/Terminologie)
 
+
+[Modèles réseau](./Reseau/Modeles)
+
+[La couche de liaison et le protocole Ethernet](./Reseau/Ethernet)
+ 
+[La couche Internet et le protocole IP](./Reseau/IP)
+
+[La couche de transport, UDP et TCP](./Reseau/TCP)
+
+[DNS, l'annuaire d'Internet](./Reseau/DNS)
+
 ## Terminologie et généralités
 
 En toute généralité, un **réseau** est un ensemble de **nœuds** ou composants reliés entre eux par des **liens**. Un réseau permet la distribution de flux (électricité, eau, etc.) ou de quantité discrètes (information, courriers, personnes) entre les nœuds qui le composent.
