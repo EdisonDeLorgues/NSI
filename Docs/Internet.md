@@ -14,7 +14,7 @@ Elle saisit l’adresse dans la barre d'adresse de son navigateur. Après quelqu
 identique à chacune de leur machine. La machine hébergeant le site semble donc pouvoir communiquer simultanément avec plusieurs utilisateurs. Ces
 observations nous permettent d'aborder les aspects principaux des réseaux et d’Internet.
 
-[Terminologie et généralités](./reseau/Terminologie)
+[Terminologie et généralités](./Reseau/Terminologie)
 
 ## Terminologie et généralités
 
