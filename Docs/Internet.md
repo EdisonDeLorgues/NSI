@@ -27,7 +27,7 @@ observations nous permettent d'aborder les aspects principaux des réseaux et d�
 
 [DNS, l'annuaire d'Internet](./Reseau/DNS)
 
-## Terminologie et généralités
+<!-- ## Terminologie et généralités
 
 En toute généralité, un **réseau** est un ensemble de **nœuds** ou composants reliés entre eux par des **liens**. Un réseau permet la distribution de flux (électricité, eau, etc.) ou de quantité discrètes (information, courriers, personnes) entre les nœuds qui le composent.
 
@@ -490,3 +490,4 @@ Que se passe-t-il alors lorsque l’on indique au navigateur Web que l’on souh
 En pratique, lorsque l’on configure une connexion IP sur un ordinateur, on définit aussi l’adresse de serveurs DNS (par exemple ceux du fournisseur d’accès à Internet). Ces derniers agissent comme un « cache » :
 * lorsqu'une machine leur demande l'IP pour un nom de domaine, ils la renvoient directement s’ils la connaissent déjà.
 * Sinon, ils procèdent à la requête récursive décrite plus haut (en décomposant le nom demandé), puis une fois la réponse obtenue, ils mémorisent l’IP du nom de domaine complet pour pouvoir répondre plus rapidement aux prochaines requêtes.
+-->
