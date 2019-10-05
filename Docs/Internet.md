@@ -14,6 +14,8 @@ Elle saisit l’adresse dans la barre d'adresse de son navigateur. Après quelqu
 identique à chacune de leur machine. La machine hébergeant le site semble donc pouvoir communiquer simultanément avec plusieurs utilisateurs. Ces
 observations nous permettent d'aborder les aspects principaux des réseaux et d’Internet.
 
+[Terminologie et généralités](./reseau/Terminologie)
+
 ## Terminologie et généralités
 
 En toute généralité, un **réseau** est un ensemble de **nœuds** ou composants reliés entre eux par des **liens**. Un réseau permet la distribution de flux (électricité, eau, etc.) ou de quantité discrètes (information, courriers, personnes) entre les nœuds qui le composent.
