@@ -7,4 +7,6 @@
 * [Lundi 23 septembre 2019](https://edisondelorgues.github.io/NSI/190923)
 * [Lundi 30 septembre 2019](https://edisondelorgues.github.io/NSI/190930)
 * [Lundi 07 octobre 2019](https://edisondelorgues.github.io/NSI/191007)
+* [Lundi 14 octobre 2019](https://edisondelorgues.github.io/NSI/191014)
+* [Lundi 04 novembre 2019](https://edisondelorgues.github.io/NSI/191104)
 
