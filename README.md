@@ -14,4 +14,5 @@
 * [Lundi 2 décembre 2019](https://edisondelorgues.github.io/NSI/191202)
 * [Lundi 9 décembre 2019](https://edisondelorgues.github.io/NSI/191209)
 * [Lundi 16 décembre 2019](https://edisondelorgues.github.io/NSI/191216)
+* [Lundi 6 janvier 2020](https://edisondelorgues.github.io/NSI/200106)
 
