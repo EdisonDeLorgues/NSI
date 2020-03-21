@@ -1,0 +1,14 @@
+{% include head.html %}
+
+Compléter la fonction python suivante pour qu'elle produise une liste croissante de n entiers compris entre min et max:
+
+```python
+import random
+
+def sortedIntegers(number,minimum, maximum):
+    res=[0]*number
+    for i in range(number):
+        res[i]=random.randint(minimum,maximum)
+    res.sort()
+    return res
+```
